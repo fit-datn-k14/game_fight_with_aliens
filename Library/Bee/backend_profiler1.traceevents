@@ -1,0 +1,598 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683310769214907, "dur":1093, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769216010, "dur":98, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683310769216134, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683310769216151, "dur":310, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683310769216507, "dur":681, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769217188, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388253, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388263, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388273, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388277, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388287, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388292, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388298, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388299, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388306, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388308, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388314, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388317, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388325, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388328, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388335, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388337, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388346, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388371, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769388402, "dur":3933, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683310769217224, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769217225, "dur":3666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769220896, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683310769221106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769223737, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683310769225487, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683310769225535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769225542, "dur":23910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683310769249538, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769249559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769249564, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769255649, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769255667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769255673, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769256614, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769256659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769256664, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769257710, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769257725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769257730, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769258921, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769258935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769258941, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769260407, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769260421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769260426, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769261801, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769261817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769261822, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769264067, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769264423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769264428, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769266239, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769266348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769266352, "dur":6271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769272660, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769273030, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769273067, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769275725, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769275910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769275916, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769279145, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769279160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769279167, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769280365, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769280418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769280424, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769281955, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769281970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769281976, "dur":5231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769287235, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769287311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769287325, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769289733, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769289852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769289859, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683310769290403, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683310769290425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769290443, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683310769292254, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683310769292273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683310769292282, "dur":75737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683310769368038, "dur":20098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769217074, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769217213, "dur":3659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769220896, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1683310769221114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769223579, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1683310769226292, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683310769226325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769226341, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683310769227837, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769227878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769227906, "dur":26668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769254718, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769254808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769254813, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769255562, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769255585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769255591, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769256452, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769256470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769256478, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769257969, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769257982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769257987, "dur":10383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769268582, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769269094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769269104, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769274013, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769274071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769274080, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769275672, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769275776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769275782, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769277207, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769277220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769277225, "dur":4596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769281846, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769281860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769281865, "dur":28191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683310769310080, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683310769310101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683310769310110, "dur":76072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683310769386235, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1683310769386245, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769217495, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769217495, "dur":3426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769220923, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683310769221170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769257898, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683310769259078, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769259096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769259102, "dur":4787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769263899, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769263932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769263939, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769266068, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769266158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769266165, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769269962, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769270102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769270111, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769274580, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769274684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769274693, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769279161, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769279177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769279183, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769280282, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769280320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769280325, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769281225, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769281242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769281251, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769284164, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769284196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769284202, "dur":30155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683310769314377, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683310769314397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769314403, "dur":14609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1683310769329087, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1683310769329349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683310769329372, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1683310769330810, "dur":56138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769217785, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769217785, "dur":3133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769220921, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683310769221252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769258085, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683310769260255, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769260269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769260274, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769261662, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769261674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769261679, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769262668, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769262685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769262690, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769264074, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769264153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769264158, "dur":4233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769268407, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769268506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769268512, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769273387, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769274129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769274136, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769276475, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769276612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769276619, "dur":5540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769282180, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769282194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769282199, "dur":14642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683310769296870, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683310769296895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769296902, "dur":16997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683310769313932, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683310769313965, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769313998, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683310769314751, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683310769314775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769314816, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683310769315644, "dur":4211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1683310769319879, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769319958, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1683310769322374, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683310769322388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769322393, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1683310769324077, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683310769324111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769324120, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683310769325998, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1683310769326033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769326043, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1683310769326951, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1683310769326970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683310769326976, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1683310769330615, "dur":57606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769217209, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769217210, "dur":3678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769220896, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683310769221100, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769224044, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683310769225324, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683310769225368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769225375, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683310769226491, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683310769226526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769226532, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683310769227817, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769227859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769228251, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769232473, "dur":10131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769242611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769242623, "dur":5836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769248474, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769248492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769248500, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769251071, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769251090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769251100, "dur":6404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769257520, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769257540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769257545, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769258560, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769258575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769258581, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769260070, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769260083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769260088, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769261637, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769261652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769261667, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769262548, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769262561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769262587, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769263715, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769264234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769264239, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769268532, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769268820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769268836, "dur":4401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769273276, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769273334, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769273464, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769274760, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769274797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769274802, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769275916, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769275994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769275999, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769277276, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769277292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769277296, "dur":5048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769282361, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769282376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769282380, "dur":7826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683310769290219, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1683310769290556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769297900, "dur":10216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1683310769308177, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769308810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769308825, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769311023, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769311041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769311051, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769313943, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769313960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769313996, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769314827, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1683310769314973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769314979, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1683310769315964, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1683310769315993, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769316010, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1683310769317603, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1683310769317616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769317627, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1683310769322280, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1683310769322303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769322316, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level4" }}
+,{ "pid":12345, "tid":5, "ts":1683310769325463, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683310769325478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769325487, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683310769326382, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769326437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683310769326443, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1683310769330684, "dur":57492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769217028, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769217207, "dur":3652, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769220896, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1683310769220903, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769221130, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1683310769221143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769223065, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1683310769225227, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683310769225278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769225306, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683310769226303, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1683310769226347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769226356, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1683310769228243, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1683310769228285, "dur":264, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769228556, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1683310769231341, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683310769231421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769231678, "dur":6436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683310769238209, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769238251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769238261, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769240253, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769240374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769240387, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241123, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241155, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241899, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769241926, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769243582, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769243616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769243623, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769244672, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769244690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769244696, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769245690, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769245714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769245719, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769247731, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769247747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769247755, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769248591, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769248605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769248610, "dur":7838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769256460, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769256499, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769256511, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769259963, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769259976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769259981, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769260937, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769260955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769260961, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769261750, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769261777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769261783, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769263211, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769263510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769263516, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769265530, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769265626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769265649, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769268269, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769268406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769268415, "dur":8444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769276870, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769276970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769276975, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769279315, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769279329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769279334, "dur":7862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769287233, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769287437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769287443, "dur":26658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683310769314120, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1683310769314142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683310769314147, "dur":30298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1683310769344493, "dur":42360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769217352, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769217353, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769220915, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683310769221136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769224012, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683310769225638, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683310769225677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769225919, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1683310769226511, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1683310769226545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769226550, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1683310769227465, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1683310769227672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769227686, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1683310769228379, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683310769229181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769229187, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead.exe" }}
+,{ "pid":12345, "tid":7, "ts":1683310769231931, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769231960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769232539, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769234742, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769234769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769234816, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769236026, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769236062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769236073, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769237294, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769237334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769237347, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769240044, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769240086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769240096, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241076, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241103, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241896, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769241926, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769243049, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769243074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769243080, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244217, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244238, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244952, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769244996, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769246266, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769246295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769246303, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769248333, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769248348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769248353, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769252722, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769252741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769252751, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769254537, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769254556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769254576, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769255610, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769255625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769255632, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257273, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257294, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257894, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769257938, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769259159, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769259198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769259204, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769260434, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769260451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769260473, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769262565, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769262580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769262585, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769264033, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769264376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769264381, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769266168, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769266244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769266249, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769270358, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769271044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769271053, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769275627, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769275641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769275648, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769276864, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769276969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769276975, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769279204, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769279252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769279257, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769281243, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769281262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769281267, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769282654, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769282673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769282677, "dur":6564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769289254, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769289279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769289290, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683310769293296, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769293310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769293317, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769294650, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769294669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769294679, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295351, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295364, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295382, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295905, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769295924, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769296572, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769296586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769296590, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683310769297399, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769297423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683310769297430, "dur":70733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683310769368175, "dur":18534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769217612, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769217613, "dur":3316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769220931, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683310769221100, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769223985, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683310769225267, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683310769225309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769225328, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683310769226266, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683310769226299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769226338, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683310769227830, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769227877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769228221, "dur":14663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769242979, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769243001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769243006, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769243786, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769243802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769243879, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769245709, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769245734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769245739, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769246470, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769246852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769246859, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769248183, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769248200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769248205, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769249048, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769249074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769249084, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769254534, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769254556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769254576, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769255669, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769255682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769255687, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769256879, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769256899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769256904, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769257974, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769257989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769257993, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769259890, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769259907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769259913, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261076, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261100, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261784, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769261823, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769263206, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769263308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769263315, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769264700, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769264815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769264820, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769268728, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769269055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769269080, "dur":10429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769279529, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769279553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769279558, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769281317, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769281331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769281337, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769283580, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769283598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769283607, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769289335, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769289352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769289357, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769290212, "dur":78535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769368753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683310769369062, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Games/Games built/Fight With Aliens/EmpireOfDead_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683310769369644, "dur":18397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683310769394035, "dur":2346, "ph":"X", "name": "ProfilerWriteOutput" }
+,
